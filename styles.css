@@ -45,15 +45,14 @@ p {
   height: 10px;
 }
 
-.md {
-  height: 5px;
-}
-
 .lg, .md {
   background-color: black;
   border: 0;
 }
 
+.md {
+  height: 5px;
+}
 
 .sm-text {
   font-size: 0.85rem;
@@ -66,12 +65,13 @@ p {
 
 .calories-info span {
   font-size: 1.2em;
+  margin-top: -7px;
 }
 
 .indent {
   margin-left: 1em;
 }
 
-.daily-value p {
+.daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
