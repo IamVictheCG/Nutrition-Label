@@ -45,6 +45,10 @@ p {
   height: 10px;
 }
 
+.md {
+  height: 5px;
+}
+
 .lg, .md {
   background-color: black;
   border: 0;
