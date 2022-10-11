@@ -30,6 +30,7 @@ p {
 .divider {
   border-bottom: 1px solid #888989;
   margin: 2px 0;
+  clear: right;
 }
 
 .bold {
@@ -61,4 +62,8 @@ p {
 
 .calories-info span {
   font-size: 1.2em;
+}
+
+.indent {
+  margin-left: 1em;
 }
