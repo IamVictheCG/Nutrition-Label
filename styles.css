@@ -81,6 +81,7 @@ p {
   margin: 5px 0;
   padding: 0 8px;
   text-indent: 8px;
+  
 }
 
 .daily-value p:not(.no-divider) {
